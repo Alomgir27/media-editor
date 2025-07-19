@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useRef, useState } from "react";
 import Selection from "@interactify/selection";
 import Moveable from "@interactify/moveable";

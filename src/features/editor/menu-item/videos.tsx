@@ -1,3 +1,5 @@
+"use client";
+
 import Draggable from "@/components/shared/draggable";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { dispatch } from "@designcombo/events";

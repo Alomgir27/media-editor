@@ -14,7 +14,7 @@ export const useVoiceClone = (audioId: string | undefined): UseVoiceCloneReturn 
       setLoading(true);
       setError(null);
       
-      const response = await fetch(`/api/voice-clone/${id}.json`);
+      const response = await fetch(`/api/voice-clone/${id}`);
       if (!response.ok) throw new Error(`Failed to fetch: ${response.status}`);
       
       const result = await response.json();

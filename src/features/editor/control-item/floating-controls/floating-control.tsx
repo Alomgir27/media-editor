@@ -1,3 +1,5 @@
+"use client";
+
 import useLayoutStore from "../../store/use-layout-store";
 import AnimationCaption from "./animation-caption";
 import AnimationPicker from "./animation-picker";

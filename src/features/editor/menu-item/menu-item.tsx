@@ -1,3 +1,5 @@
+"use client";
+
 import useLayoutStore from "../store/use-layout-store";
 import { Texts } from "./texts";
 import { Audios } from "./audios";

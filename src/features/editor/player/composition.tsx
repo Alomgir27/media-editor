@@ -1,3 +1,5 @@
+"use client";
+
 import useStore from "../store/use-store";
 import useLayoutStore from "../store/use-layout-store";
 import { SequenceItem } from "./sequence-item";

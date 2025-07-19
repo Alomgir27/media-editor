@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"src\\\\features\\\\editor\\\\timeline\\\\items\\\\video.ts -> @designcombo/frames\":{\"id\":\"src\\\\features\\\\editor\\\\timeline\\\\items\\\\video.ts -> @designcombo/frames\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_designcombo_frames_dist_frames_js.js\"]}}"

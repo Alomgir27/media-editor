@@ -1,3 +1,5 @@
+"use client";
+
 import useLayoutStore from "./store/use-layout-store";
 import { Icons } from "@/components/shared/icons";
 import { Button } from "@/components/ui/button";

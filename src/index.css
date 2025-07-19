@@ -66,6 +66,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  /* Force light theme */
+  html {
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: light;
+  }
 }
 
 html {

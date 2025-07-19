@@ -1,3 +1,5 @@
+"use client";
+
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useDownloadState } from "./store/use-download-state";
 import { Button } from "@/components/ui/button";

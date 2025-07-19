@@ -90,7 +90,7 @@ const Editor: React.FC<VoiceCloneProps> = ({ voiceCloneData }) => {
         } catch (dispatchError) {
           console.error("Error dispatching instruments audio:", dispatchError);
         }
-      }, 1000);
+      }, 1500);
       
     } catch (error) {
       console.error("Error loading instruments audio:", error);
@@ -105,11 +105,11 @@ const Editor: React.FC<VoiceCloneProps> = ({ voiceCloneData }) => {
         details: { src: voiceCloneData.videoUrl },
         name: "Source Video",
         type: "video" as const,
-        duration: videoDuration,
+        duration: videoDuration * 1000,
         preview: voiceCloneData.videoUrl,
       };
     dispatch(ADD_VIDEO, { payload, options: {} });
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 1500));
     
     // Load audio segments first, then instruments
     const loadAudioSegments = async () => {
@@ -143,9 +143,9 @@ const Editor: React.FC<VoiceCloneProps> = ({ voiceCloneData }) => {
            } catch (error) {
              console.error(`Error loading audio segment ${index}:`, error);
            }
-         }, index * 1000);
+         }, index * 1500);
         });
-       await new Promise(resolve => setTimeout(resolve, segments.length * 1000));
+       await new Promise(resolve => setTimeout(resolve, segments.length * 1500));
        loadInstrumentsAudio();
     };
     await loadAudioSegments()

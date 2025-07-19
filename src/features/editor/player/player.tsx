@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useRef } from "react";
 import Composition from "./composition";
 import { Player as RemotionPlayer, PlayerRef } from "@remotion/player";

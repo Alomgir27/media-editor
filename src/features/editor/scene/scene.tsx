@@ -1,3 +1,5 @@
+"use client";
+
 import { Player } from "../player";
 import Viewer from "@interactify/infinite-viewer";
 import { useRef } from "react";

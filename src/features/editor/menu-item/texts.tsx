@@ -1,3 +1,5 @@
+"use client";
+
 import Draggable from '@/components/shared/draggable';
 import { Button, buttonVariants } from '@/components/ui/button';
 import { DEFAULT_FONT } from '@/features/editor/constants/font';
