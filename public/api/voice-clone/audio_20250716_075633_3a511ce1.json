@@ -1,0 +1,149 @@
+{
+    "status": "completed",
+    "message": "Processing completed successfully",
+    "progress": 100,
+    "audio_id": "audio_20250718_050217_81804728",
+    "created_at": "2025-07-18T05:02:17.477918",
+    "updated_at": "2025-07-18T05:06:37.919127",
+    "details": {
+      "final_audio_url": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/final/final_output_audio_20250718_050217_81804728.wav",
+      "video_url": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/video/video_processed_audio_20250718_050217_81804728.mp4",
+      "subtitles_url": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/subtitles/subtitles_audio_20250718_050217_81804728.srt",
+      "processing_stats": {
+        "total_segments": 4,
+        "cloned_segments": 4,
+        "speakers": [
+          "A",
+          "B"
+        ],
+        "duration": 35.75
+      },
+      "uploaded_files": {
+        "segments": {
+          "count": 0,
+          "uploaded": false
+        },
+        "final_audio": {
+          "url": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/final/final_output_audio_20250718_050217_81804728.wav",
+          "size_mb": 3.01,
+          "uploaded": true
+        },
+        "vocal_audio": {
+          "url": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/vocal/vocal_separated_audio_20250718_050217_81804728.wav",
+          "size_mb": 0.28,
+          "uploaded": true
+        },
+        "instruments_audio": {
+          "url": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/instruments/instruments_separated_audio_20250718_050217_81804728.wav",
+          "size_mb": 0.28,
+          "uploaded": true
+        },
+        "video": {
+          "url": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/video/video_processed_audio_20250718_050217_81804728.mp4",
+          "size_mb": 5.77,
+          "uploaded": true
+        },
+        "subtitles": {
+          "url": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/subtitles/subtitles_audio_20250718_050217_81804728.srt",
+          "size_kb": 1.58,
+          "uploaded": true
+        }
+      },
+      "processing_details": {
+        "original_audio": {
+          "filename": "hindi_podcast.mp4",
+          "source_url": "https://pub-74887e7c8b114b879fd5038c6e8af446.r2.dev/hindi_podcast.mp4",
+          "source_type": "url",
+          "duration": 36.014149659863946,
+          "sample_rate": 44100,
+          "channels": 1,
+          "size_mb": 6.462532997131348,
+          "processing_type": "video_with_separation",
+          "language_code": null,
+          "speakers_expected": 2,
+          "detected_speakers": 2
+        },
+        "cloning_parameters": {
+          "temperature": 1.3,
+          "cfg_scale": 3,
+          "top_p": 0.95,
+          "seed_used": 42,
+          "seeds_used": {
+            "B": 1042,
+            "A": 42
+          }
+        },
+        "features_used": {
+          "vocal_separation": true,
+          "voice_cloning": true,
+          "subtitle_generation": true,
+          "instrument_mixing": true
+        },
+        "processing_timeline": {
+          "transcription_source": "AssemblyAI",
+          "voice_cloning_model": "Dia",
+          "separation_service": "RunPod"
+        }
+      },
+      "segment_details": {
+        "total_segments": 4,
+        "total_cloned": 4,
+        "speakers": [
+          "B",
+          "A"
+        ],
+        "segments_by_speaker": {
+          "B": 3,
+          "A": 1
+        },
+        "cloned_by_speaker": {
+          "B": 3,
+          "A": 1
+        },
+        "completion_rate": 100,
+        "has_processing_summary": true,
+        "has_cloning_summary": true,
+        "has_reconstruction_summary": true,
+        "transcription_source": "AssemblyAI"
+      },
+      "r2_storage": {
+        "bucket": "voice-cloning-api",
+        "base_path": "voice-cloning/2025/07/18/audio_20250718_050217_81804728",
+        "segments_uploaded": false,
+        "total_files": 5,
+        "segment_urls": {
+          "metadata": {
+            "reconstruction_summary.json": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/metadata/reconstruction_summary.json",
+            "cloning_summary.json": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/metadata/cloning_summary.json",
+            "processing_metadata.json": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/metadata/processing_metadata.json",
+            "assemblyai_response.json": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/metadata/assemblyai_response.json"
+          },
+          "segments": {
+            "speaker_B": {
+              "segment_004_metadata.json": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/segment_004_metadata.json",
+              "segment_004.wav": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/segment_004.wav",
+              "segment_003_metadata.json": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/segment_003_metadata.json",
+              "segment_003.wav": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/segment_003.wav",
+              "segment_002_metadata.json": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/segment_002_metadata.json",
+              "segment_002.wav": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/segment_002.wav"
+            },
+            "speaker_A": {
+              "segment_001_metadata.json": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_A/segment_001_metadata.json",
+              "segment_001.wav": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_A/segment_001.wav"
+            }
+          },
+          "cloned": {
+            "speaker_B": {
+              "cloned_segment_004.wav": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/cloned/cloned_segment_004.wav",
+              "cloned_segment_003.wav": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/cloned/cloned_segment_003.wav",
+              "cloned_segment_002.wav": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_B/cloned/cloned_segment_002.wav"
+            },
+            "speaker_A": {
+              "cloned_segment_001.wav": "https://pub-1b758b3fa78c4404bb6a60c2a61d6e2a.r2.dev/voice-cloning/2025/07/18/audio_20250718_050217_81804728/segments/speaker_A/cloned/cloned_segment_001.wav"
+            }
+          },
+          "silent_parts": {}
+        }
+      }
+    }
+  }

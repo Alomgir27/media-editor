@@ -18,7 +18,7 @@ Video Editor application using React and TypeScript.
 </p>
 </div>
 
-[![](https://cdn.designcombo.dev/editor-preview.png)](https://github.com/designcombo/react-video-editor)
+[![](https://cdn.designcombo.dev/editor-preview.png)](https://github.com/Alomgir27/media-editor.git)
 
 ## ✨ Features
 
@@ -33,13 +33,13 @@ Video Editor application using React and TypeScript.
 Clone locally:
 
 ```bash
-git clone git@github.com:designcombo/react-video-editor.git
+git clone https://github.com/Alomgir27/media-editor.git
 cd react-video-editor
 pnpm install
 pnpm dev
 ```
 
-Open your browser and visit http://localhost:5173 , see more at [Development](https://github.com/designcombo/react-video-editor/react-video-editor).
+Open your browser and visit http://localhost:5173 , see more at [Development](https://github.com/Alomgir27/media-editor.git).
 
 ## 📝 License
 
